@@ -155,7 +155,7 @@ Do these values differ from the estimates from the first part of the assignment?
 > median(TotalNumberofStepsImputed$mean, na.rm=TRUE)
 [1] 10766.19
 ```
-The mean and median of totoal number of steps daily increased from 9354.23 and 10395 to having both values as 10766.19 since we replaced the missing values ("NA") with the mean of daily steps. The impact of the imputing missing data is that the total daily number of steps increased what made the mean and median values increase as well. 
+The mean and median of total number of steps daily increased from 9354.23 and 10395 respectively to 10766.19 for both of them after replacing all 2304 missing values ("NA") with the mean of daily steps. The impact of the imputing missing data is that the total daily number of steps increased what made the mean and median values increase as well. 
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
